@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        
+    <style>
+      
+        .small-container{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 0 95px;
+            
+        }
+   
+   .col-4{
+       display: inline-block;
+       flex-wrap: wrap;
+       padding: 4px;
+       padding-left: 50px;
+      
+       
+       
+   }
+   .col-4:hover{
+       transform: translateY(-10px);
+   }
+   .h11{
+       text-align: center;
+       margin: 0 auto 80px;
+       position: relative;
+       line-height: 60px;
+       color: black;
+       padding-bottom: 20px;
+       padding-top: 40px;
+   
+   }
+   .h11::after{
+       content: "";
+       background-color: orangered;
+       width: 80px;
+       height: 5px;
+       border-radius: 5px;
+       position: absolute;
+       bottom: 0%;
+       left: 50%;
+       transform: translateX(-50%);
+       
+   }
+   .h41{
+       color: orangered;
+  
+       font-weight: normal;
+   }
+   .img{
+       padding-left: 10px;
+       transform: translateX(0.5s);
+       
+   }
+   .navbar1{
+       flex: 1;
+       text-align: right;
+       padding: 20px;
+   }
+   .links{
+       display: inline-block;
+       padding: 20px;
+       list-style-type: none;
+       padding-bottom: 0px;
+       padding-top: 1px;
+       padding-right: 25px 25px;
+   }
+   .container{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    
+
+   }
+      .li{
+          flex-wrap: wrap;
+          padding: 30px;
+          display: inline-block;
+          padding: 5px;
+          max-height: 15px;
+          
+          
+          
+          
+      }
+      .li1{
+          padding: 10px;
+          width: 2px;
+          padding-right: 5px;
+          text-decoration: none;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .li:hover{
+          background-color: rgb(243, 236, 236);
+          border-radius: 10px;
+      }
+      .img{
+          margin: 5px;
+          padding: 20px;
+      }
+      .row{
+          padding: 3px 150px;
+          transition: ease-in;
+          background: radial-gradient(rgb(138, 25, 25));
+      }
+      .aman{
+          display: inline-block;
+          flex-wrap: wrap;
+          padding: 20px;
+          padding: 25px 25px;
+      }
+      .aman:hover{
+          transform: translateY(-10px);
+      }
+      .bag{
+          width: 150px;
+          height: 35px;
+          color: white;
+          border-color: blue;
+          background-color: blue;
+          padding-right: 10px;
+          border-radius: 5px;
+          
+      }
+      .bag:hover{
+          background-color: rgb(14, 51, 170);
+          transform: translateX(0.5s);
+      }
+      .rs{
+          font-size: 20px;
+          color: darkgreen;
+      }
+      .discription{
+        position: absolute;
+                right: 300px;
+                top: 4000px;
+      }
+      .btn0{
+        text-decoration: none;
+                display: inline-block;
+                background-color: blue;
+                color: white;
+                padding: 8px 30px;
+                border-radius: 15px;
+                
+      }
+      .btn0:hover{
+          background-color: darkblue;
+          transform: translateX(0.5s);
+      }
+     
+        </style>
+    </head>
+
+
+    <body class="body">
+        <div class="container">
+            <div class="img">
+                <img src="aman logo.html.png" width="250" height="50">
+            </div>
+        <nav class="navbar1">
+            <ul class="links">
+             <li class="li"><a class="li1" href="index.html">Home</a></li>
+             <li class="li"><a class="li1" href="About us.html">About us</a></li>
+             <li class="li"><a class="li1" href="">Bag</a></li>
+             <li class="li"><a class="li1" href="Account.html">Account</a></li>
+              </ul>
+        </nav>
+        </div>
+       
+     <!-----featured product------>
+      <div class="small-container"> 
+          
+        <h1 class="h11">Soap Product</h1>
+         
+         <div class="col-4">
+       
+            <img src="santoor.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Santoor Body Soap</h4>
+           <p class="rs">RS-10</p>
+           <input type="button" value="Add to Bag" size="50px"  class="bag">
+          
+
+
+         </div>   
+         <div class="col-4">
+       
+            <img src="medimex.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Medimex Body Soap</h4>
+            <p class="rs">RS-10</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+         </div>   
+         <div class="col-4">
+       
+            <img src="Detol.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Detol Body Soap</h4>
+            <p class="rs">RS-10</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+         </div>   
+         <div class="col-4">
+       
+            <img src="Lifebouy.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Lifebouy Body Soap</h4>
+            
+            <p class="rs">Rs-10</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+
+
+         </div>   
+         <h1 class="h11">Oil Product</h1>
+         <div class="col-4">
+       
+            <img src="safola 1kg.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Safola Gold Refind oil 1kg </h4>
+            
+            <p class="rs">Rs-180</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+
+         </div>  
+          <div class="col-4">
+       
+            <img src="safola 15kg.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Safola Gold Refind oil 15kg </h4>
+            
+            <p class="rs">Rs-2100</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+
+         </div>   <div class="col-4">
+       
+            <img src="safola 5kg.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Safola Refind oil 5kg </h4>
+            
+            <p class="rs">Rs-700</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+
+         </div>   <div class="col-4">
+       
+            <img src="fortune oil.html.png" width="180px" height="180px" class="img">
+            <h4 class="h41">Fortune Refind oil 5kg</h4>
+            
+            <p class="rs">Rs-720</p>
+            <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+
+         </div>     
+         <h1 class="h11">Biscuits Product</h1>
+       <div class="aman">
+           <img src="oreo.html.png" width="250px" height="250px">
+           <h4 class="h41">Oreo Cream Biscuits </h4>
+           <p class="rs">Rs-10</p>
+           <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+       </div>
+       <div class="aman">
+        <img src="Screenshot_20210522_192025.png" width="250px" height="250px">
+        <h4 class="h41">Good Day Biscuits </h4>
+        <p class="rs">Rs-10</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div><div class="aman">
+        <img src="Screenshot_20210522_192050.png" width="250px" height="250px">
+        <h4 class="h41">Mari Gold Biscuits </h4>
+        <p class="rs">Rs-10</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    
+    <div class="aman">
+        <img src="Screenshot_20210522_192116.png" width="250px" height="250px">
+        <h4 class="h41">Parle-G Biscuits </h4>
+        <p class="rs">Rs-10</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <h1 class="h11">Facewash Product</h1>
+    <div class="aman">
+        <img src="himaliya.html.png" width="250px" height="200px">
+        <h4 class="h41">Himaliya Facewash </h4>
+        <p class="rs">Rs-94</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="facewash.html.png" width="250px" height="200px">
+        <h4 class="h41">The skin story Facewash </h4>
+        <p class="rs">Rs-80</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="nivea.html.png" width="250px" height="200px">
+        <h4 class="h41">Nivea Men Facewash </h4>
+        <p class="rs">Rs-89</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="patanjali.html.png" width="250px" height="200px">
+        <h4 class="h41">Patanjali Lemon Honey Facewash </h4>
+        <p class="rs">Rs-79</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <h1 class="h11">Fair & lovely Product</h1>
+    <div class="aman">
+        <img src="fair ladies.html.png" width="250px" height="250px">
+        <h4 class="h41">Fair & lovely ladies cream </h4>
+        <p class="rs">Rs-59</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="fair winter.html.png" width="250px" height="250px">
+        <h4 class="h41">Fair & lovely winter cream </h4>
+        <p class="rs">Rs-109</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="fair Ayurvedic.html.png" width="250px" height="250px">
+        <h4 class="h41">Fair & lovely Ayurvedic cream </h4>
+        <p class="rs">Rs-79</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="fair Men.html.png" width="250px" height="250px">
+        <h4 class="h41">Fair & lovely Men cream </h4>
+        <p class="rs">Rs-99</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <h1 class="h11">Hair Oil Product</h1>
+    <div class="aman">
+        <img src="oil 1.html.png" width="250px" height="250px">
+        <h4 class="h41">Mamaearth hair oil </h4>
+        <p class="rs">Rs-129</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="oil 2.html.png" width="250px" height="250px">
+        <h4 class="h41">Onion harbel hair oil</h4>
+        <p class="rs">Rs-69</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="oil 3.html.png" width="250px" height="250px">
+        <h4 class="h41">Soul tree hair oil </h4>
+        <p class="rs">Rs-99</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    <div class="aman">
+        <img src="oil 4.html.png" width="250px" height="250px">
+        <h4 class="h41">Indulekha ladies hair oil</h4>
+        <p class="rs">Rs-199</p>
+        <input type="button" value="Add to Bag" size="50px" class="bag">
+          
+    </div>
+    
+   
+       </div>
+       <div class="offer">
+           <div class="oimg">
+               <img src="offered image.html.png" width="600" height="600" >
+           </div>
+           <div class="discription">
+               <h1>Best offer on Amanstore ! </h1>
+               <p>Best offer on Amanstore !Buy the combo and get 25% discount.<br>
+                The price of combo is 5000/-.
+                 Pay using phonepe,paytm or <br>BHIMUPI and also get extra 10% discount.</p>
+                 <a href="" class="btn0">Buy Now &#8594;</a>
+           </div>
+       </div>
+ </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .navbar1{
+       flex: 1;
+       text-align: right;
+       padding: 20px;
+   }
+   .links{
+       display: inline-block;
+       padding: 20px;
+       list-style-type: none;
+       padding-bottom: 0px;
+       padding-top: 1px;
+       padding-right: 25px 25px;
+   }
+   .container{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+    
+
+   }
+      .li{
+          flex-wrap: wrap;
+          padding: 30px;
+          display: inline-block;
+          padding: 5px;
+          max-height: 15px;
+          
+          
+          
+      }
+      .li1{
+          color: palevioletred;
+          padding: 10px;
+          width: 2px;
+          padding-right: 5px;
+          text-decoration: none;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .li:hover{
+          background-color: rgb(243, 236, 236);
+          border-radius: 10px;
+      }
+     .h1 {
+       color: lightcoral;
+       font-style: italic;      
+   }
+  
+.a1{
+
+ 
+width: 300px;
+height: 30px;
+border-radius: 5px;
+border-color: blue;
+
+
+}
+ .a1:hover{
+    
+     border-color: blue;
+     
+ }
+ .a2{
+
+width: 120px;
+height: 40px;
+background-color: blue;
+margin-right: 20px;
+font-size: medium;
+color: white;
+border-radius: 5px;
+border-color: blue;
+
+}
+.a2:hover{
+
+background-color: rgb(30, 28, 167);
+border-color: rgb(30, 28, 167);
+transform: translateX(0.5s);
+
+}
+.a3{
+
+width: 120px;
+height: 40px;
+background-color: red;
+color: white;
+border-color: red;
+margin-right: 20px;
+font-size: medium;
+border-radius: 5px;
+}
+.a3:hover{
+    background-color: brown;
+    border-color: brown;
+    transform: translateX(0.5s);
+}
+.form{
+    text-align: center;
+    padding-top: 50px;
+   
+}
+.body{
+    background-image: url(home\ photo.html.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+        </style>
+    </head>
+    <body class="body">
+        <div class="container">
+            <div class="img">
+                <img src="aman logo.html.png" width="200" height="40">
+            </div>
+        <nav class="navbar1">
+            <ul class="links">
+             <li class="li"><a class="li1" href="index.html">Home</a></li>
+             <li class="li"><a class="li1" href="product.html">Product</a></li>
+             <li class="li"><a class="li1" href="About us.html">About us</a></li>
+             <li class="li"><a class="li1" href="">Bag</a></li>
+             
+              </ul>
+        </nav>
+        </div>
+        <div class="form">
+        <h1 class="h1">Create Your Account</h1>
+        <form>
+            <input type="text" placeholder="Enter Your Name" class="a1">
+            <br>
+            <br>
+            <input type="text" placeholder="Enter Your Father Name" class="a1">
+            <br>
+            <br>
+            <span>Select Your Gender</span>
+            <input type="radio" name="Gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Female">
+            <label>Female</label>
+             <br>
+             <br>
+             <input type="email" placeholder="Enter Your Email" class="a1">
+             <br>
+             <br>
+             <input type="number" placeholder="Contact number" class="a1">
+            <br>
+            <br>
+            <input type="number" placeholder="Enter pin code" class="a1">
+            <br>
+            <br>
+            <input type="text" placeholder="Enter Your Address" class="a1">
+            <br>
+            <br>
+            <input type="button" value="Submit" class="a2">
+            <input type="button" value="Cancel" class="a3">
+
+        </form>
+        </div>
+    </body>
+</html>
